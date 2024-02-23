@@ -1,13 +1,9 @@
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
 from sklearn.preprocessing import LabelEncoder, StandardScaler
-import seaborn as sns
-import streamlit as st
-import joblib
 from sklearn.model_selection import train_test_split
+import streamlit as st
 from sklearn.linear_model import LogisticRegression
-
+import joblib
 encoder = LabelEncoder()
 scaler = StandardScaler()
 
