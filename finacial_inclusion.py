@@ -3,6 +3,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
 import streamlit as st
 from sklearn.linear_model import LogisticRegression
+from sklearn.preprocessing import LabelEncoder, StandardScaler
 import joblib
 encoder = LabelEncoder()
 scaler = StandardScaler()
