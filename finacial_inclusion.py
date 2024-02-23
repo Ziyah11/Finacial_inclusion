@@ -1,4 +1,5 @@
 import pandas as pd
+import sklearn
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
 import streamlit as st
